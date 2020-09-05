@@ -1,3 +1,5 @@
+<h1>Credit to: https://github.com/Leo4815162342/dukascopy-tools. This is just a fork from him. </h1>
+
 <h1>Dukascopy tools</h1>
 
 A set of libraries and tools for downloading histortical market data (OHLC) with resolution ranging from `tick` to `daily` timeframes
