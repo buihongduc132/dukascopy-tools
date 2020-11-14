@@ -36,7 +36,7 @@
     "crypto"
   ],
   "dependencies": {
-    "fastest-validator": "0.6.17",
+    "fastest-validator": "0.6.19",
     "lzma-purejs": "^0.9.3",
     "node-fetch": "^2.3.0",
     "python-struct": "^1.0.6"
