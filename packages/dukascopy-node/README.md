@@ -31,17 +31,17 @@ yarn add dukascopy-node
 
 ```javascript
 // ES6 Import
-import { getHistoricRates } from 'dukascopy-node';
+import { getHistoricRates } from 'bhd-dukascopy-node';
 
 // CommonJS
-const { getHistoricRates } = require('dukascopy-node');
+const { getHistoricRates } = require('bhd-dukascopy-node');
 ```
 
 #### calling with `async/await`:
 
 
 ```javascript
-const { getHistoricRates } = require('dukascopy-node');
+const { getHistoricRates } = require('bhd-dukascopy-node');
 
 (async () => {
   try {
@@ -65,7 +65,7 @@ const { getHistoricRates } = require('dukascopy-node');
 
 
 ```javascript
-const { getHistoricRates } = require('dukascopy-node');
+const { getHistoricRates } = require('bhd-dukascopy-node');
 
 getHistoricRates({
   instrument: 'btcusd',

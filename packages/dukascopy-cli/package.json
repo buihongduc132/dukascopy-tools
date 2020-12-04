@@ -1,5 +1,5 @@
 {
-  "name": "dukascopy-cli",
+  "name": "bhd-dukascopy-cli",
   "description": "Command line interface for downloading historical market data in json, csv formats",
   "version": "1.2.1",
   "main": "bin/index.js",
@@ -27,7 +27,7 @@
   "author": "leonid.pyrlia",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leo4815162342/dukascopy-tools/tree/master/packages/dukascopy-cli"
+    "url": "https://github.com/buihongduc132/dukascopy-tools/tree/master/packages/dukascopy-cli"
   },
   "dependencies": {
     "chalk": "^3.0.0",
