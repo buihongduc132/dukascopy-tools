@@ -1,5 +1,5 @@
 import { program } from 'commander';
-import { Timeframe, Price, Format, schema, validator, validateConfig } from 'bhd-dukascopy-node';
+import { Timeframe, Price, Format, schema, validator, validateConfig } from '@bhd/dukascopy-node';
 import { CliConfig } from './types';
 
 program

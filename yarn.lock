@@ -2625,23 +2625,6 @@ dot-prop@^4.2.0:
   dependencies:
     is-obj "^1.0.0"
 
-dukascopy-core@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/dukascopy-core/-/dukascopy-core-1.3.1.tgz#991196670cd7dc60a3bc17cdfa902a4c63ea2f50"
-  integrity sha512-yD6TMFSOt9FZfhdWgZVy7+JQwxdYnHDinKrDDar4Lpw81FxOurbQsoXNbLkQ4YRuSgyhPRUtY4fsNM0ix4kWhw==
-  dependencies:
-    fastest-validator "^0.6.17"
-    lzma-purejs "^0.9.3"
-    node-fetch "^2.3.0"
-    python-struct "^1.0.6"
-
-dukascopy-node@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/dukascopy-node/-/dukascopy-node-1.3.1.tgz#4834e5f453e5c7b0227a4002e2003b849a1c2356"
-  integrity sha512-I+PXX1TYelIavkH8Eh/EoAv+lF1mitMFQGKuncY+zdK38Kf2knSyuOt9TilESTQoBpMAvqZymMqGF12zNAc8Xg==
-  dependencies:
-    dukascopy-core "^1.3.1"
-
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -3058,11 +3041,6 @@ fastest-validator@0.6.17:
   version "0.6.17"
   resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-0.6.17.tgz#15a8eef2c7c5a3268e4689dfd4a4b6553f0ff8b1"
   integrity sha512-XkdrjNbXwFJSn8s8dceofnA2ZHppfXtbTHP2dO2jXHZfm2GWP55VQBx/0UKWxfFfdWqmJv4ppBzuf342h5bahw==
-
-fastest-validator@^0.6.17:
-  version "0.6.19"
-  resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-0.6.19.tgz#5522cf29a13090df71862c7df4b29d1f49165a91"
-  integrity sha512-U+hjn/Au+sgGfrwb26t26hywrItCdkpQ7VEJPY7Ey0FU2mnH/L4xhcs0R9Bd+y57aUKlasC3W4J6t8fOyXji6Q==
 
 fb-watchman@^2.0.0:
   version "2.0.0"
