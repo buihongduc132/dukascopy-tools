@@ -1,6 +1,6 @@
 {
   "name": "bhd-dukascopy",
-  "private": false,
+  "private": true,
   "version": "0.0.2",
   "workspaces": [
     "packages/*"

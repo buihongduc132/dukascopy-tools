@@ -7,6 +7,7 @@ export { formatOutput } from './output-formatter';
 
 export { Config, DefaultConfig, defaultConfig } from './config';
 export { Instrument, InstrumentType } from './config/instruments';
+export { instrumentMetaData } from './config/instruments-metadata';
 export { Timeframe, TimeframeType } from './config/timeframes';
 export { Format, FormatType } from './config/format';
 export { Price, PriceType } from './config/price-types';
