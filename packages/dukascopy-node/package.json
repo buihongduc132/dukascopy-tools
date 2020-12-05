@@ -1,6 +1,6 @@
 {
-  "name": "@bhd/dukascopy-node",
-  "version": "1.3.1",
+  "name": "bhd-dukascopy-node",
+  "version": "1.4.0",
   "description": "Node.js library for downloading historical market data",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
@@ -10,8 +10,9 @@
   ],
   "scripts": {
     "test": "yarn jest",
+    "test:instrument": "yarn ts-node dev-utils/test-get-instrument-meta.ts",
     "test:call": "yarn ts-node dev-utils/test-call.ts",
-    "type-check": "yarn tsc src/index.ts --noEmit",
+    "type-check": "yarn tsc src/index.ts --noEmit --resolveJsonModule --esModuleInterop --allowSyntheticDefaultImports true",
     "lint": "yarn eslint 'src/**/*.{js,ts}'",
     "build": "yarn rollup -c",
     "pre-commit": "yarn type-check && yarn lint",

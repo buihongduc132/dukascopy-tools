@@ -3,7 +3,7 @@ import { promisify } from 'util';
 import { instrumentMetaData } from '../src/config/instruments-metadata';
 const saveFile = promisify(fs.writeFile);
 
-const enumKeys = Object.keys(instrumentMetaData).map(inst => {
+const enumKeys = Object.keys(instrumentMetaData).map((inst) => {
   const { name, description, minStartDate, minStartDateDaily } = instrumentMetaData[inst];
 
   const line = `
@@ -20,7 +20,7 @@ const enumKeys = Object.keys(instrumentMetaData).map(inst => {
      * \`d1\` | **${minStartDateDaily}**
      * \`mn1\` | **${minStartDateDaily}**
      */
-    ${inst}='${inst}',`;
+    '${inst}'='${inst}',`;
   return line;
 });
 

@@ -11,7 +11,7 @@ import {
   BufferFetcher,
   processData,
   formatOutput
-} from '@bhd/dukascopy-node';
+} from 'bhd-dukascopy-node';
 import { printDivider, printHeader, printSuccess, printErrors } from './printer';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
