@@ -1,4 +1,4 @@
-<h1>Credit to: https://github.com/Leo4815162342/dukascopy-tools. This is just a fork from him. </h1>
+<h1>Credit to: https://github.com/Leo4815162342/dukascopy-tools. </h1>
 
 <h1>Dukascopy tools</h1>
 
