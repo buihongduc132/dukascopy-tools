@@ -39,7 +39,7 @@
   "dependencies": {
     "fastest-validator": "0.6.17",
     "lzma-purejs": "^0.9.3",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^3.2.10",
     "python-struct": "^1.0.6"
   },
   "devDependencies": {
